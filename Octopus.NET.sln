@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SRC", "SRC", "{EA6B0068-1F5C-4769-9718-A8391687AD30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TDD", "TDD", "{6AA66CA5-BC5A-4892-889F-34845759DBCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Octopus.NET", "SRC\Octopus.NET\Octopus.NET.csproj", "{B2EC989F-60A6-4393-9FAC-6DB738D73C65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Octopus.NET.Tests", "TDD\Octopus.NET.Tests\Octopus.NET.Tests.csproj", "{64817C21-A365-4579-9384-B6807C0539E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B2EC989F-60A6-4393-9FAC-6DB738D73C65} = {EA6B0068-1F5C-4769-9718-A8391687AD30}
+		{64817C21-A365-4579-9384-B6807C0539E2} = {6AA66CA5-BC5A-4892-889F-34845759DBCC}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2EC989F-60A6-4393-9FAC-6DB738D73C65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2EC989F-60A6-4393-9FAC-6DB738D73C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2EC989F-60A6-4393-9FAC-6DB738D73C65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2EC989F-60A6-4393-9FAC-6DB738D73C65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64817C21-A365-4579-9384-B6807C0539E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64817C21-A365-4579-9384-B6807C0539E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64817C21-A365-4579-9384-B6807C0539E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64817C21-A365-4579-9384-B6807C0539E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
